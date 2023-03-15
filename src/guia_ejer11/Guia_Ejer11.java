@@ -13,6 +13,9 @@ public class Guia_Ejer11 {
     /**
      * @param args the command line arguments
      */
+    
+    ///algoritmo ppal:
+    
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
          int largo;
