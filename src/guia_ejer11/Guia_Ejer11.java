@@ -27,13 +27,16 @@ public class Guia_Ejer11 {
             fin = frase.substring(largo - 1,largo);
         } while(!fin.equals(punto));
         
-        String oracion = codificada(frase, largo);
+        String oracion = codificar(frase, largo);
         
         System.out.println(oracion);
   
         
     }
-    public static String codificada(String frase, int largo) {
+    
+    
+    ///función codificar
+    public static String codificar(String frase, int largo) {
         String oracion = "";
         String letra;
         
